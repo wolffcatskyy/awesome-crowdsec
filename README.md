@@ -19,7 +19,6 @@ A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 - [Docker Stacks & Examples](#docker-stacks--examples)
 - [Dashboards & Monitoring](#dashboards--monitoring)
 - [Integrations](#integrations)
-- [Contributing](#contributing)
 
 ## Official Resources
 
