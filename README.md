@@ -20,7 +20,6 @@ A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 - [Dashboards & Monitoring](#dashboards--monitoring)
 - [Integrations](#integrations)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Official Resources
 
@@ -108,9 +107,3 @@ A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 ## Contributing
 
 Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, [wolffcatskyy](https://github.com/wolffcatskyy) has waived all copyright and related or neighboring rights to this work.
