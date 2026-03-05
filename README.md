@@ -23,8 +23,8 @@ A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 ## Official Resources
 
 - [crowdsec](https://github.com/crowdsecurity/crowdsec) - The main CrowdSec engine.
-- [crowdsec-docs](https://github.com/crowdsecurity/crowdsec-docs) - Official documentation.
 - [CrowdSec Console](https://app.crowdsec.net) - Cloud console and threat intelligence.
+- [crowdsec-docs](https://github.com/crowdsecurity/crowdsec-docs) - Official documentation.
 - [Documentation](https://docs.crowdsec.net) - Official documentation website.
 - [hub](https://github.com/crowdsecurity/hub) - Official parsers and scenarios.
 - [sec-lists](https://github.com/crowdsecurity/sec-lists) - Keywords and patterns lists.
