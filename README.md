@@ -1,5 +1,11 @@
 # Awesome CrowdSec [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<div align="center">
+	<a href="https://crowdsec.net">
+		<img src="media/crowdsec-logo.png" alt="CrowdSec" width="400">
+	</a>
+</div>
+
 A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 
 [CrowdSec](https://crowdsec.net) is an open-source and collaborative security stack that analyzes behaviors and responds to attacks.
@@ -18,6 +24,9 @@ A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 - [Blocklist & Threat Intelligence](#blocklist--threat-intelligence)
 - [Docker Stacks & Examples](#docker-stacks--examples)
 - [Dashboards & Monitoring](#dashboards--monitoring)
+- [SIEM & Security Operations](#siem--security-operations)
+- [API Clients & SDKs](#api-clients--sdks)
+- [Developer Tools](#developer-tools)
 - [Integrations](#integrations)
 
 ## Official Resources
@@ -36,7 +45,6 @@ A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 - [crowdsec-unifi-bouncer](https://github.com/wolffcatskyy/crowdsec-unifi-bouncer) - UniFi firewall integration via API.
 - [cs-firewall-bouncer](https://github.com/crowdsecurity/cs-firewall-bouncer) - Official firewall bouncer for iptables, nftables, ipset, pf.
 - [cs-firewall-bouncer-docker](https://github.com/shgew/cs-firewall-bouncer-docker) - Dockerized firewall bouncer.
-- [cs-mikrotik-bouncer](https://github.com/funkolab/cs-mikrotik-bouncer) - MikroTik RouterOS bouncer.
 - [cs-mikrotik-bouncer-alt](https://github.com/nvtkaszpir/cs-mikrotik-bouncer-alt) - Alternative MikroTik bouncer.
 - [cs-windows-firewall-bouncer](https://github.com/crowdsecurity/cs-windows-firewall-bouncer) - Windows Firewall bouncer.
 
@@ -44,16 +52,17 @@ A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 
 - [caddy-crowdsec-bouncer](https://github.com/hslatman/caddy-crowdsec-bouncer) - Caddy module for CrowdSec.
 - [crowdsec-bouncer-traefik-plugin](https://github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin) - Traefik plugin for CrowdSec WAF.
-- [cs-haproxy-bouncer](https://github.com/crowdsecurity/cs-haproxy-bouncer) - Official HAProxy bouncer.
+- [cs-apache2-bouncer](https://github.com/crowdsecurity/cs-apache2-bouncer) - Official Apache HTTP Server bouncer.
+- [cs-haproxy-spoa-bouncer](https://github.com/crowdsecurity/cs-haproxy-spoa-bouncer) - HAProxy SPOE filter for CrowdSec with WAF and IP protection.
 - [cs-nginx-bouncer](https://github.com/crowdsecurity/cs-nginx-bouncer) - Official Nginx bouncer.
 - [cs-openresty-bouncer](https://github.com/crowdsecurity/cs-openresty-bouncer) - OpenResty bouncer.
 - [envoy-proxy-crowdsec-bouncer](https://github.com/kdwils/envoy-proxy-crowdsec-bouncer) - Envoy proxy bouncer.
-- [traefik-crowdsec-bouncer](https://github.com/fbonalair/traefik-crowdsec-bouncer) - HTTP bouncer for Traefik.
 
 ### Cloud & CDN
 
-- [cs-cloud-firewall-bouncer](https://github.com/crowdsecurity/cs-cloud-firewall-bouncer) - Cloud firewall bouncer.
+- [cs-aws-waf-bouncer](https://github.com/crowdsecurity/cs-aws-waf-bouncer) - Official AWS WAF bouncer.
 - [cs-cloudflare-bouncer](https://github.com/crowdsecurity/cs-cloudflare-bouncer) - Cloudflare bouncer with multi-account support.
+- [cs-cloudflare-worker-bouncer](https://github.com/crowdsecurity/cs-cloudflare-worker-bouncer) - Cloudflare Workers bouncer for multi-zone setups.
 
 ### CMS & Applications
 
@@ -68,11 +77,10 @@ A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 ## Firewall Integrations
 
 - [opnsense-plugin-crowdsec](https://github.com/crowdsecurity/opnsense-plugin-crowdsec) - OPNsense plugin.
-- [pfSense-pkg-crowdsec](https://github.com/crowdsecurity/pfSense-pkg-crowdsec) - pfSense package.
+- [pfSense-pkg-crowdsec](https://github.com/crowdsecurity/pfSense-pkg-crowdsec) - Package for pfSense firewall integration.
 
 ## Web UIs & Management
 
-- [crowdsec-dashboard](https://github.com/liberodark/crowdsec-dashboard) - Dashboard for CrowdSec.
 - [crowdsec-web-ui](https://github.com/TheDuffman85/crowdsec-web-ui) - Modern web interface for alerts and decisions.
 - [crowdsec_manager](https://github.com/hhftechnology/crowdsec_manager) - Web management interface with Pangolin integration.
 
@@ -96,11 +104,24 @@ A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 
 - [grafana-dashboards](https://github.com/crowdsecurity/grafana-dashboards) - Official Grafana dashboards for Prometheus.
 
+## SIEM & Security Operations
+
+- [crowdsec-sentinel-playbook](https://github.com/crowdsecurity/crowdsec-sentinel-playbook) - Microsoft Sentinel IP reputation playbook.
+- [crowdsec-splunk-app](https://github.com/crowdsecurity/crowdsec-splunk-app) - Splunk app for CrowdSec integration.
+
+## API Clients & SDKs
+
+- [go-cs-bouncer](https://github.com/crowdsecurity/go-cs-bouncer) - Go library for the CrowdSec API.
+- [nodejs-cs-bouncer](https://github.com/crowdsecurity/nodejs-cs-bouncer) - Official Node.js bouncer and remediation component.
+
+## Developer Tools
+
+- [cs-log-replay-gui](https://github.com/crowdsecurity/cs-log-replay-gui) - GUI for replaying logs through CrowdSec scenarios.
+
 ## Integrations
 
 - [helm-charts](https://github.com/crowdsecurity/helm-charts) - Kubernetes Helm charts.
 - [home-assistant-addons](https://github.com/crowdsecurity/home-assistant-addons) - Home Assistant add-ons.
-- [nix-flake-crowdsec](https://github.com/kampka/nix-flake-crowdsec) - NixOS flake.
 - [spksrc-crowdsec](https://github.com/crowdsecurity/spksrc-crowdsec) - Synology package.
 
 ## Contributing
