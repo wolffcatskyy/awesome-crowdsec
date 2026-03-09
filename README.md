@@ -127,3 +127,7 @@ A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 ## Contributing
 
 Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+
+---
+
+*List curation and project selection by the maintainer. AI tools used for formatting, lint compliance, and alphabetical ordering.*
