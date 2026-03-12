@@ -28,7 +28,6 @@ A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 - [API Clients & SDKs](#api-clients--sdks)
 - [Developer Tools](#developer-tools)
 - [Integrations](#integrations)
-- [Contributing](#contributing)
 
 ## Official Resources
 
