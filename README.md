@@ -125,6 +125,8 @@ A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 - [helm-charts](https://github.com/crowdsecurity/helm-charts) - Official Helm charts for deploying CrowdSec on Kubernetes.
 - [home-assistant-addons](https://github.com/crowdsecurity/home-assistant-addons) - Home Assistant add-ons for running CrowdSec alongside home automation.
 - [spksrc-crowdsec](https://github.com/crowdsecurity/spksrc-crowdsec) - Native Synology NAS package built with SynoCommunity spksrc.
+- [crowdsec-unifi-parser](https://github.com/wolffcatskyy/crowdsec-unifi-parser) - CrowdSec parsers and iptables LOG rules for UniFi Dream Machines — clean, parseable firewall logs from your UDM/UDR.
+- [crowdsec-unifi-suite](https://github.com/wolffcatskyy/crowdsec-unifi-suite) - One-command installer for CrowdSec + UniFi security stack (bouncer + parser + blocklist-import).
 
 ## Contributing
 
