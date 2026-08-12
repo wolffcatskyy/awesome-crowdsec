@@ -93,6 +93,7 @@ A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 
 ## Docker Stacks & Examples
 
+- [automated-crowdsec-kamal](https://github.com/muthuishere/automated-crowdsec-kamal) - Automated CrowdSec intrusion detection for Kamal-deployed production VPS, with Telegram alerts.
 - [caddy-docker-proxy-crowdsec](https://github.com/kmobs/caddy-docker-proxy-crowdsec) - Caddy reverse proxy with automatic Docker service discovery and CrowdSec.
 - [Docker-Traefik](https://github.com/SimpleHomelab/Docker-Traefik) - Production-ready media and home server stack with Traefik, CrowdSec, and OAuth2.
 - [example-docker-compose](https://github.com/crowdsecurity/example-docker-compose) - Official reference Docker Compose configurations for common setups.
