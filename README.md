@@ -46,6 +46,7 @@ A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 - [cs-firewall-bouncer](https://github.com/crowdsecurity/cs-firewall-bouncer) - Official bouncer supporting iptables, nftables, ipset, and pf on Linux/BSD.
 - [cs-firewall-bouncer-docker](https://github.com/shgew/cs-firewall-bouncer-docker) - Containerized version of the official firewall bouncer for Docker deployments.
 - [cs-mikrotik-bouncer-alt](https://github.com/nvtkaszpir/cs-mikrotik-bouncer-alt) - Community MikroTik RouterOS bouncer using the REST API.
+- [cs-routeros-bouncer](https://github.com/jmrplens/cs-routeros-bouncer) - Native RouterOS API bouncer for MikroTik with auto-managed firewall rules and reconciliation.
 - [cs-windows-firewall-bouncer](https://github.com/crowdsecurity/cs-windows-firewall-bouncer) - Official bouncer that manages Windows Firewall rules.
 
 ### Web Servers & Proxies
