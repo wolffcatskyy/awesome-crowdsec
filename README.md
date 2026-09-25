@@ -42,7 +42,7 @@ A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 
 ### Firewall
 
-- [crowdsec-unifi-bouncer](https://github.com/wolffcatskyy/crowdsec-unifi-bouncer) - Syncs CrowdSec decisions to UniFi firewalls via the UniFi API with Docker support.
+- [crowdsec-unifi-bouncer](https://github.com/wolffcatskyy/crowdsec-unifi-bouncer) - Runs the official cs-firewall-bouncer natively on UniFi OS devices (UDM/UDR/UCG), with reboot/firmware persistence, per-device ipset capacity management, and a sidecar that scores and prioritizes decisions.
 - [cs-firewall-bouncer](https://github.com/crowdsecurity/cs-firewall-bouncer) - Official bouncer supporting iptables, nftables, ipset, and pf on Linux/BSD.
 - [cs-firewall-bouncer-docker](https://github.com/shgew/cs-firewall-bouncer-docker) - Containerized version of the official firewall bouncer for Docker deployments.
 - [cs-mikrotik-bouncer-alt](https://github.com/nvtkaszpir/cs-mikrotik-bouncer-alt) - Community MikroTik RouterOS bouncer using the REST API.
