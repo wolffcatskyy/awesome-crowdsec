@@ -111,6 +111,7 @@ A curated list of awesome CrowdSec resources, bouncers, integrations, and tools.
 
 - [crowdsec-sentinel-playbook](https://github.com/crowdsecurity/crowdsec-sentinel-playbook) - Microsoft Sentinel playbook for automated IP reputation enrichment.
 - [crowdsec-splunk-app](https://github.com/crowdsecurity/crowdsec-splunk-app) - Splunk app for ingesting and visualizing CrowdSec alerts and decisions.
+- [nazar](https://github.com/krugis/nazar) - Local AI analyst that triages CrowdSec alerts and applies bounded, reversible decisions.
 
 ## API Clients & SDKs
 
